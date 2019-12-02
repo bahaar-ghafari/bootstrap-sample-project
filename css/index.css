@@ -1,0 +1,493 @@
+/* for mobile phones */
+
+.section {
+    width: 100%;
+    float: left;
+    display: block;
+    margin: auto;
+}
+
+.background-dark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #212429;
+    height: 200px;
+    width: 100%;
+    display: block;
+}
+
+.social-icon-navbar{
+    padding: 2px;
+    font-size: 0.75rem;
+    color: #ffffff;
+    }
+.social-icons-navbar{
+    position: absolute;
+    right: 2px;
+    top: 10px;
+}
+.logo{
+    width: 100px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    top: 10px;
+}
+.latest-news{
+    z-index: 283;
+    font-size: 0.5rem;
+    text-transform: capitalize;
+}
+
+.carousel-caption{
+    left: 20px; 
+    top: 10px;
+    z-index: 20;
+    color: white;
+    text-align: left;
+  }
+
+  h4{
+    font-size:0.5rem ;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    text-transform: uppercase;
+}
+.carousel-indicators li{
+    width: 5px;
+    height: 5px;
+    margin-right: 3px;
+    margin-left: 3px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    background-color: #fff;
+}
+.carousel-control-prev{
+    position: absolute;
+    top: 30px;
+    right: 6px;
+    bottom: 400px;
+    width: 15px;
+    color: #ffffff;
+    left: auto;
+}
+.carousel-control-next{
+    position: absolute;
+    top: 100px;
+    left: auto;
+    right: 6px;
+    bottom: 0;
+    display: flex;
+    width: 15px;
+    color: #fff;
+}
+.carousel-indicators{
+    position: absolute;
+    left: auto;
+    right: 20px;
+    top: 26px;
+    z-index: 15;
+    transform: rotate(90deg);
+    margin: 0;
+    margin-right: 40px;
+}
+
+.featured-article{
+    transform: rotate(-90deg);
+    font-size: 1vw;
+    position: absolute;
+    top: 50%;
+    right: -12px;
+    margin: 0;
+    color: #ffffff;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.myform{
+    font-size: 1vw; 
+    text-align: center; 
+    margin-top: 40px;
+}
+
+.form-control , .subscribe-now{
+    font-size: 0.35rem !important;
+    border-radius: 0;
+    width: 63px !important;
+    margin: 5px;
+    text-transform: uppercase;
+    border: 0;
+}
+
+.txt-form{
+    color: #212429;
+    font-size: 0.5rem;
+    position: inline-block;
+    margin-left: 8px;
+    margin: 5px;
+    width: 20%;
+    text-transform: capitalize;
+}
+input, .btn-sm{
+    text-transform: uppercase;
+    font-size: 0.80rem;
+}
+.footer-post input{
+    width: 30%;
+    border: 0;
+}
+.footer-post i{
+    margin-left:20px !important;
+}
+
+/* Make the image fully responsive*****************************securesh ein nis */
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+small {
+    font-size: 0.75rem;
+    color: rgb(153, 153, 153);
+    text-transform: uppercase;
+    line-height: 1.714;
+    z-index: 282;
+  }
+
+h6{
+    font-size: 1rem;
+    color: rgb(33, 33, 33);
+    font-weight: bold;
+    line-height: 1.4;
+    text-align: center;
+    z-index: 280;
+    text-transform: uppercase;
+  }
+
+.Post-box{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(221, 221, 221);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 1px 0px rgba(232, 232, 232, 0.21);
+    z-index: 74;
+    margin-top: 30px;
+    text-align: center;
+    position: relative;
+    transition: box-shadow 500ms;
+}
+
+.Post-box:hover, .Post-box:focus{
+    box-shadow: 0 0 19px 0px rgb(179, 172, 172);
+}
+
+.content{
+    position: relative;
+    padding: 5%;
+}
+.btn:hover{
+    cursor: pointer;
+    z-index: 999999;
+    position: relative;
+}
+.icon-top-postbox{
+    position: absolute ;
+    background-color: black;
+    padding: 3px 5px 3px;
+    color: #ffffff;
+    z-index: 100;
+    left: 50%;
+    transform: translatex(-50%);
+    top: -10px;
+}
+
+.social-icon-postbox{
+    color: #212429;
+    font-size: 0.80rem;
+    padding:0;
+}
+
+.social-icons-postbox{
+  float: right;
+  margin-top: 5px;
+  margin-right: 11px;
+}
+
+.top-post{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(221, 221, 221);
+    background-color: rgb(244, 244, 244);
+    box-shadow: 0px 0px 1px 0px rgba(232, 232, 232, 0.21);
+    height: 30vh;
+    z-index: 71;
+}
+
+hr{
+ margin: 16px 0 5px;
+}
+
+.post9{
+ background-image: url("../img/bg-post9.png");
+ background-repeat: no-repeat;
+ background-size: cover;
+ width: 100%;
+}
+
+.blog-section{
+ margin: 4%;
+}
+.down-bar{
+    background-color: #17191c;
+    padding: 2%;
+    text-align: center;
+    word-spacing: 5px;
+}
+
+.my-audio{
+    width: 80%;
+    margin-top: 70px;
+}
+.instagram-img{
+    width: 80px;
+}
+.dropdown-menu{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color:rgba(54, 52, 52, 0.959); 
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    overflow: scroll;
+    border-radius: 0;
+    text-align: center;
+}
+.dropdown-item{
+    color: #ffffff;
+}
+.icon-drop{
+margin: 8px;
+padding: 3px;
+}
+.footer-post{
+    text-align: left;
+    height: 45px;
+}
+@media only screen and (min-width: 600px) {
+    /* for tablet */
+    .carousel-indicators{
+        right: 100px;
+        top: 5px;
+        margin-right: 0px;
+    }
+    .featured-article{
+        top: 45%;
+        right: -20px;
+    }
+    .carousel-control-next{
+        top: 140px;
+    }
+    .carousel-control-prev{
+        top: 30px;
+    }
+    .myform{ 
+        margin-top: 15px;
+    }
+    .form-control , .subscribe-now{
+        width: 24% !important;
+        margin: 5px;
+        font-size: 0.75rem !important;
+        height: 35px;
+    }
+    
+    .txt-form{
+        font-size: 0.75rem;
+    }
+    input, .btn-sm{
+        text-transform: uppercase;
+        font-size: 0.80rem;
+    }
+    .logo{
+        width: 180px;
+        top: 0;
+    }
+    .latest-news{
+        z-index: 283;
+        font-size: 0.85rem;
+        text-transform: capitalize;
+    }
+    
+    .carousel-caption{
+        left: 5%; 
+        top: 20%;
+      }
+    
+      h4{
+        font-size:0.91rem ;
+        letter-spacing: 2px;
+        word-spacing: 3px;
+        text-transform: uppercase;
+    }
+    small {
+        font-size: 1rem;
+      }
+    
+    h6{
+        font-size: 1.05rem;
+      }
+    p{
+        font-size: 1.15rem;
+    }
+    .social-icon-postbox{
+        font-size: 0.85rem;
+        margin-bottom: 5px;
+    }
+    .footer-post{
+        height: 35px;
+    }
+    .icon-top-postbox{
+        padding: 6px 10px 6px;
+        font-size: 1.5rem !important;
+        top: -17px !important;
+        z-index: 1000;
+    }
+    
+    .instagram-img{
+        width: 120px;
+    }
+    .down-bar small{
+        font-size: 0.70rem;
+    }
+    .footer-section p{
+        font-size: 1rem;
+    }
+    .footer-section strong{
+        font-size: 1.15rem !important;
+    }
+    .footer-post input{
+        font-size: 0.80rem;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+/* for desktop */
+    .carousel-indicators{
+        right: 20px;
+        position: absolute;
+        height: 10px;
+        top: 47%;
+    }
+    .featured-article{
+        top: 45%;
+        right: -35px;
+        font-size: 0.8rem;
+    }
+    .carousel-control-next{
+        top: 200px;
+        right: 12px;
+    }
+    .carousel-control-prev{
+        top: 20%;
+        right: 12px;
+    }
+    .myform{ 
+        margin-top: 15px;
+    }
+    .form-control , .subscribe-now{
+        width: 24% !important;
+        margin: 5px;
+        font-size: 0.65rem !important;
+        height: 35px;
+    }
+    
+    .txt-form{
+        font-size: 0.80rem;
+        letter-spacing: 4px;
+        /* font-family: "Myriad Pro"; */
+          
+    }
+    input, .btn-sm{
+        text-transform: uppercase;
+        font-size: 0.80rem;
+    }
+    .logo{
+        width: 180px;
+        top: 0;
+    }
+    .latest-news{
+        z-index: 283;
+        font-size: 1rem;
+        text-transform: capitalize;
+    }
+    
+    .carousel-caption{
+        left: 5%; 
+        top: 20%;
+      }
+    
+      h4{
+        font-size:1.40rem ;
+        letter-spacing: 8px;
+        word-spacing: 3px;
+        text-transform: uppercase;
+    }
+    small {
+        font-size: 0.7rem;
+      }
+    
+    h6{
+        font-size: 1rem;
+      }
+    p{
+        font-size: 1rem;
+    }
+    .social-icon-postbox{
+        font-size: 0.8rem;
+        /* margin-bottom: 5px; */
+    }
+    .footer-post{
+        height: 30px;
+    }
+    .icon-top-postbox{
+        padding: 3px 5px 3px;
+        font-size: 1rem !important;
+        top: -12px !important;
+        z-index: 1000;
+    }
+    
+    .instagram-img{
+        width: 70px;
+    }
+    .down-bar{
+        padding: 5px;
+    }
+    .down-bar small{
+        font-size: 1rem;
+    }
+    .footer-section strong{
+        font-size: 1rem !important;
+    }
+    .footer-post input{
+        font-size: 0.6rem;
+        width: 70px !important;
+    }
+    .footer-section p{
+        font-size: 0.88rem;
+    }
+    .my-audio{
+        width: 213px;
+    }
+}
+
+
+
+
+     
+
+  
